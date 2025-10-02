@@ -1,5 +1,5 @@
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:kali-version-e419ea97
-# set version label
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntujammy-version-b455693b
+
 ARG BUILD_DATE
 ARG VERSION
 LABEL build_version="[Mollomm1 Mod] Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
